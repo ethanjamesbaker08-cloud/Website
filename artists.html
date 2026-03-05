@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head> <!-- Page title/description + shared CSS -->
+  <meta charset="UTF-8">
+  <title>Artists &amp; Gallery | Burnley Community Arts Festival</title>
+  <meta name="description" content="Artists and gallery highlights for Burnley Community Arts Festival - paintings, photography, illustration, crafts, and body art.">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a> <!-- Jump past the header -->
+
+  <div class="main-wrapper">
+    <header class="topbar"> <!-- Same header across the site -->
+      <div class="topbar-inner">
+        <a class="brand" href="./index.html" aria-label="Burnley Community Arts Festival home">
+          <span class="logo-badge">
+            <img class="brand-logo" src="./logo.png" alt="Burnley Community Arts Festival logo">
+          </span>
+          <span class="brand-text">Burnley <span class="highlight">Community Arts</span> Festival</span>
+        </a>
+
+        <details class="nav-mobile"> <!-- Dropdown nav so you can get around the pages -->
+          <summary class="menu-btn">☰ Menu</summary>
+          <nav class="nav-panel" aria-label="Primary">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./events.html">Upcoming Events</a>
+            <a href="./artists.html" aria-current="page">Artists &amp; Gallery</a>
+            <a class="nav-cta" href="./get-involved.html">Get Involved</a>
+            <a href="./references.html">References</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section"> <!-- Page intro + a few images -->
+        <div class="section-head">
+          <h1>Artists &amp; <span class="highlight">Gallery</span></h1>
+          <p class="lead">
+            Discover the artists and creative categories featured at the festival - from paintings and photography to crafts,
+            illustration, and safe body art demonstrations.
+          </p>
+        </div>
+
+        <div class="photo-strip">
+          <figure class="photo-card">
+            <img src="./images/gallery.jpg" alt="Artwork displayed in a gallery space" loading="lazy">
+            <figcaption><strong>Gallery spaces</strong> - pop-up venues across the town centre.</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="./images/painting.jpg" alt="Artist painting on a canvas" loading="lazy">
+            <figcaption><strong>Live demos</strong> - watch artists create pieces in real time.</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="./images/bodyart.jpg" alt="Face painting example" loading="lazy">
+            <figcaption><strong>Body art</strong> - safe materials, artist-led demonstrations.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section"> <!-- Category cards so visitors can quickly browse -->
+        <div class="section-head">
+          <h2>Featured Categories</h2>
+          <p>These categories help visitors find what they’re most interested in.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <img class="card-img" src="./images/painting.jpg" alt="Painting on a canvas" loading="lazy">
+            <h3>Paintings</h3>
+            <p>Traditional and modern painting styles - landscapes, portraits, abstract work, and community-themed pieces.</p>
+            <ul>
+              <li>Pop-up gallery displays</li>
+              <li>Live painting demos</li>
+              <li>Featured local artists</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/gallery.jpg" alt="Artworks displayed in an exhibition" loading="lazy">
+            <h3>Photography</h3>
+            <p>Photography showcasing Burnley, local life, and creative storytelling through portraits and scenes.</p>
+            <ul>
+              <li>Town &amp; community themes</li>
+              <li>Student showcase area</li>
+              <li>Print display wall</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/performance.jpg" alt="Street performer with a crowd" loading="lazy">
+            <h3>Illustration &amp; Design</h3>
+            <p>Posters, digital art, illustration and graphic design - including community projects and commissions.</p>
+            <ul>
+              <li>Digital + traditional</li>
+              <li>Local designer corner</li>
+              <li>Sketchbook table</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/bodyart.jpg" alt="Face paint close-up" loading="lazy">
+            <h3>Body Art</h3>
+            <p>Face painting for families plus body art demonstrations using safe materials and hygiene rules.</p>
+            <ul>
+              <li>Family zone sessions</li>
+              <li>Artist-led designs</li>
+              <li>Bookable slots at busy times</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Featured Artists</h2>
+          <p>Some of the creative work you’ll see across the weekend.</p>
+        </div>
+
+        <div class="two-col">
+          <article class="card">
+            <h3>Amira Khan - Acrylic Painter</h3>
+            <p>Amira creates bold acrylic pieces inspired by Lancashire landscapes and city textures.</p>
+            <ul>
+              <li><strong>Style:</strong> Acrylic, modern landscapes</li>
+              <li><strong>Where to find:</strong> Pop-up Gallery (Zone A)</li>
+              <li><strong>Demo:</strong> Saturday 14:00</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Tom Barlow - Street Photographer</h3>
+            <p>Tom documents everyday life in Burnley, capturing candid moments and portraits that tell small stories.</p>
+            <ul>
+              <li><strong>Style:</strong> Documentary photography</li>
+              <li><strong>Where to find:</strong> Photo Wall (Zone B)</li>
+              <li><strong>Talk:</strong> Sunday 13:00</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Riya Patel - Illustrator</h3>
+            <p>Riya makes character illustration and poster-style art, mixing digital and traditional techniques.</p>
+            <ul>
+              <li><strong>Style:</strong> Digital illustration + ink</li>
+              <li><strong>Where to find:</strong> Design Corner (Zone C)</li>
+              <li><strong>Workshop:</strong> Sunday 11:30</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Jay &amp; Crew - Body Art Demonstrations</h3>
+            <p>A small team demonstrating safe body art techniques and face painting designs with proper hygiene standards.</p>
+            <ul>
+              <li><strong>Style:</strong> Face painting + body art</li>
+              <li><strong>Where to find:</strong> Family Zone (Zone D)</li>
+              <li><strong>Sessions:</strong> Both days (bookable)</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Gallery Areas &amp; What You’ll See</h2>
+          <p>Where to go if you’re looking for something specific.</p>
+        </div>
+
+        <div class="two-col">
+          <article class="card">
+            <h3>Pop-up Gallery</h3>
+            <p>The pop-up gallery is a calmer space for paintings, prints, and exhibitions.</p>
+            <ul>
+              <li>Paintings + prints</li>
+              <li>Photography wall</li>
+              <li>Timed demos and short talks</li>
+            </ul>
+            <img class="card-img" src="./images/gallery.jpg" alt="Gallery interior with art displayed" loading="lazy">
+          </article>
+
+          <article class="card">
+            <h3>Family Zone</h3>
+            <p>Face painting and simple activities for younger visitors, with queues managed by volunteers.</p>
+            <ul>
+              <li>Face painting sessions</li>
+              <li>Simple crafts table</li>
+              <li>Clear hygiene rules</li>
+            </ul>
+            <img class="card-img" src="./images/bodyart.jpg" alt="Colourful face paint example" loading="lazy">
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="cta-row">
+          <div class="cta-box">
+            <h3>Are you an artist?</h3>
+            <p>Apply to exhibit your work, run a demo, or join the festival as a featured artist.</p>
+            <a class="btn btn-primary" href="./get-involved.html">Apply / Get Involved</a>
+          </div>
+
+          <div class="cta-box">
+            <h3>Want to plan your day?</h3>
+            <p>Check the weekend timetable and pick performances, demos, and workshops.</p>
+            <a class="btn btn-ghost" href="./events.html">View Upcoming Events</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p>© 2025 Burnley Community Arts Festival</p>
+          <p class="small muted"><a href="./references.html">Image credits &amp; references</a></p>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

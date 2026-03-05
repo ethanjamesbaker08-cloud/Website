@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head> <!-- Page info + shared stylesheet -->
+  <meta charset="UTF-8">
+  <title>Upcoming Events | Burnley Community Arts Festival</title>
+  <meta name="description" content="Upcoming events schedule for Burnley Community Arts Festival - parade, dance, exhibitions, street performances, food stalls and body art.">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a> <!-- Handy for keyboard users -->
+
+  <div class="main-wrapper">
+    <header class="topbar"> <!-- Same header on every page -->
+      <div class="topbar-inner">
+        <a class="brand" href="./index.html" aria-label="Burnley Community Arts Festival home">
+          <span class="logo-badge">
+            <img class="brand-logo" src="./logo.png" alt="Burnley Community Arts Festival logo">
+          </span>
+          <span class="brand-text">Burnley <span class="highlight">Community Arts</span> Festival</span>
+        </a>
+
+        <details class="nav-mobile"> <!-- Dropdown menu (works without JS) -->
+          <summary class="menu-btn">☰ Menu</summary>
+          <nav class="nav-panel" aria-label="Primary">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./events.html" aria-current="page">Upcoming Events</a>
+            <a href="./artists.html">Artists &amp; Gallery</a>
+            <a class="nav-cta" href="./get-involved.html">Get Involved</a>
+            <a href="./references.html">References</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="section-head">
+          <h1>Upcoming <span class="highlight">Events</span></h1>
+          <p class="lead">
+            Browse the weekend schedule and pick what you want to see - parade routes, dance showcases, live painting,
+            food stalls, street performers, and safe body art sessions.
+          </p>
+        </div>
+
+        <div class="photo-strip">
+          <figure class="photo-card">
+            <img src="./images/parade.jpg" alt="A parade moving through a town centre" loading="lazy">
+            <figcaption><strong>Opening Parade</strong> - community-led start to the weekend.</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="./images/dance.jpg" alt="Dance performance in a public space" loading="lazy">
+            <figcaption><strong>Dance Showcase</strong> - stage sets and street sets.</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="./images/performance.jpg" alt="Street performer entertaining a crowd" loading="lazy">
+            <figcaption><strong>Street Performers</strong> - buskers, spoken word, pop-up acts.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="two-col">
+          <article class="card">
+            <h2>How to Use the Schedule</h2>
+            <p>
+              The festival is split into zones. Some events repeat throughout the day, while others happen at set times.
+              If you’re unsure where to go, start at the Info Point and follow the signs.
+            </p>
+            <ul>
+              <li><strong>Main Stage:</strong> bigger showcases (dance / music / highlights)</li>
+              <li><strong>High Street:</strong> roaming acts and street performers</li>
+              <li><strong>Pop-up Gallery:</strong> exhibitions and live painting</li>
+              <li><strong>Family Zone:</strong> face painting and family activities</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Workshops &amp; Sessions</h2>
+            <p>
+              Some sessions are limited capacity, especially face painting and body art.
+              Slots can be booked on the day or sometimes ticketed to cover materials.
+            </p>
+            <ul>
+              <li>Arrive early for popular sessions</li>
+              <li>Ask volunteers about waiting times</li>
+              <li>Safe materials + hygiene rules</li>
+            </ul>
+            <a class="btn btn-ghost" href="./get-involved.html">Volunteer / Apply</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Saturday Schedule</h2>
+          <p>Big opening moments + performances, with exhibitions and stalls running all day.</p>
+        </div>
+
+        <div class="table-wrap" role="region" aria-label="Saturday schedule table">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Location</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10:00</td>
+                <td>Opening Parade</td>
+                <td>Town Centre Route</td>
+                <td><span class="tag">Parade</span></td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>Food &amp; Market Opens</td>
+                <td>Market Area</td>
+                <td><span class="tag">Stalls</span></td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>Street Dance Showcase</td>
+                <td>Main Stage</td>
+                <td><span class="tag">Dance</span></td>
+              </tr>
+              <tr>
+                <td>13:30</td>
+                <td>Face Painting Sessions</td>
+                <td>Family Zone</td>
+                <td><span class="tag">Family</span></td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>Live Painting Demo</td>
+                <td>Pop-up Gallery</td>
+                <td><span class="tag">Art</span></td>
+              </tr>
+              <tr>
+                <td>16:00</td>
+                <td>Street Performers Hour</td>
+                <td>High Street</td>
+                <td><span class="tag">Live</span></td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>Evening Showcase</td>
+                <td>Main Stage</td>
+                <td><span class="tag">Show</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="cards" style="margin-top: 14px;">
+          <article class="card">
+            <img class="card-img" src="./images/parade.jpg" alt="Parade scene with people walking through a street" loading="lazy">
+            <h3>Opening Parade</h3>
+            <p>A community-led parade with music, banners, costumes, and performers. Best viewing spots are along the main route.</p>
+            <ul>
+              <li>Good for photos</li>
+              <li>Arrive early for front spots</li>
+              <li>Volunteers guide the route</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/dance.jpg" alt="Dance showcase performance" loading="lazy">
+            <h3>Dance Showcase</h3>
+            <p>Short, high-energy sets throughout the day, with a bigger slot on the main stage.</p>
+            <ul>
+              <li>Main stage + roaming sets</li>
+              <li>Easy to dip in/out</li>
+              <li>Family-friendly</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/painting.jpg" alt="Artist painting on canvas" loading="lazy">
+            <h3>Live Painting</h3>
+            <p>Watch artists create work live and hear how they do it. Finished pieces may be displayed in the pop-up gallery.</p>
+            <ul>
+              <li>Great for art students</li>
+              <li>Q&amp;A after the demo</li>
+              <li>Calmer zone if it’s busy outside</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="./images/bodyart.jpg" alt="Face painting and body art example" loading="lazy">
+            <h3>Face Painting / Body Art</h3>
+            <p>Safe materials and hygiene rules, with sessions organised so queues stay manageable.</p>
+            <ul>
+              <li>Bookable slots at peak times</li>
+              <li>Family zone support</li>
+              <li>Artist-led designs</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Sunday Schedule</h2>
+          <p>Workshops, exhibitions, community performances, and the closing celebration.</p>
+        </div>
+
+        <div class="table-wrap" role="region" aria-label="Sunday schedule table">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Location</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10:30</td>
+                <td>Community Open Mic</td>
+                <td>Library Corner</td>
+                <td><span class="tag">Live</span></td>
+              </tr>
+              <tr>
+                <td>11:30</td>
+                <td>Workshops Begin</td>
+                <td>Community Hub</td>
+                <td><span class="tag">Workshop</span></td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>Artists’ Exhibition Tour</td>
+                <td>Pop-up Gallery</td>
+                <td><span class="tag">Exhibition</span></td>
+              </tr>
+              <tr>
+                <td>14:30</td>
+                <td>Street Performers Showcase</td>
+                <td>High Street</td>
+                <td><span class="tag">Live</span></td>
+              </tr>
+              <tr>
+                <td>16:00</td>
+                <td>Final Dance Showcase</td>
+                <td>Main Stage</td>
+                <td><span class="tag">Dance</span></td>
+              </tr>
+              <tr>
+                <td>17:30</td>
+                <td>Closing Celebration</td>
+                <td>Main Stage</td>
+                <td><span class="tag">Community</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="cta-row">
+          <div class="cta-box">
+            <h3>Want to join next year?</h3>
+            <p>We’re always looking for artists, performers, volunteers and stallholders.</p>
+            <a class="btn btn-primary" href="./get-involved.html">Get Involved</a>
+          </div>
+
+          <div class="cta-box">
+            <h3>Want to see the gallery?</h3>
+            <p>Check out the Artists &amp; Gallery page for featured categories and displays.</p>
+            <a class="btn btn-ghost" href="./artists.html">Artists &amp; Gallery</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p>© 2025 Burnley Community Arts Festival</p>
+          <p class="small muted"><a href="./references.html">Image credits &amp; references</a></p>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
